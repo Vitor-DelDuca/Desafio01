@@ -31,7 +31,7 @@ AppAsset::register($this);
         'brandLabel' => 'CRUD',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top navbar-dark bg-dark',
+            'class' => 'navbar-inverse navbar-fixed-top navbar-dark bg-info',
         ],
     ]);
     echo Nav::widget([
@@ -56,10 +56,10 @@ AppAsset::register($this);
     </div>
 </main>
 
-<footer class="footer mt-auto py-3 text-muted bg-dark">
+<footer class="footer mt-auto py-3 text-muted bg-info">
     <div class="container">
-        <p class="float-left text-white">&copy; Vítor Del' Duca - <?= date('Y') ?></p>
-        <p class="float-right text-white">Projeto 01 - Peça Agora</p>
+        <p class="float-left text-white"><a class='text-white' href="https://www.linkedin.com/in/vitor-del-duca/" target="_blank">&copy; Vítor Del Duca</a></p>
+        <p class="float-right"><a class='text-white' href="https://www.pecaagora.com/" target="_blank">Desafio 01 - Peça Agora</a></p>
     </div>
 </footer>
 
